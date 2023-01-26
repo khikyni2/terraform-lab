@@ -44,8 +44,8 @@ resource "ibm_is_subnet" "subnet2" {
   resource_group = data.ibm_resource_group.rg.id
 }
 
-resource "ibm_is_instance" "instance1" {
-  name    = "instance1"
+resource "ibm_is_instance" "instance1daniel" {
+  name    = "instance1daniel"
   image   = var.image
   profile = var.profile
   primary_network_interface {
@@ -58,8 +58,8 @@ resource "ibm_is_instance" "instance1" {
   resource_group = data.ibm_resource_group.rg.id
 }
 
-resource "ibm_is_instance" "instance2" {
-  name    = "instance2"
+resource "ibm_is_instance" "instance2daniel" {
+  name    = "instance2daniel"
   image   = var.image
   profile = var.profile
   primary_network_interface {
